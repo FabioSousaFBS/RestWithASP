@@ -1,0 +1,11 @@
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\bin\Debug\netcoreapp2.0\RestWithASP.deps.json
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\bin\Debug\netcoreapp2.0\RestWithASP.runtimeconfig.json
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\bin\Debug\netcoreapp2.0\RestWithASP.runtimeconfig.dev.json
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\bin\Debug\netcoreapp2.0\RestWithASP.dll
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\bin\Debug\netcoreapp2.0\RestWithASP.pdb
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\obj\Debug\netcoreapp2.0\RestWithASP.csprojAssemblyReference.cache
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\obj\Debug\netcoreapp2.0\RestWithASP.csproj.CoreCompileInputs.cache
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\obj\Debug\netcoreapp2.0\RestWithASP.AssemblyInfoInputs.cache
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\obj\Debug\netcoreapp2.0\RestWithASP.AssemblyInfo.cs
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\obj\Debug\netcoreapp2.0\RestWithASP.dll
+D:\PROJETOS\CURSOS\REST\ProjetoAulas\RestWithASP\RestWithASP\RestWithASP\obj\Debug\netcoreapp2.0\RestWithASP.pdb
