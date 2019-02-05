@@ -9,14 +9,53 @@ namespace RestWithASP.Controllers
     [Route("api/[controller]")]
     public class CalculatorController : Controller
     {
-       
-        // GET api/values/5/5
-        [HttpGet("{firstNumber}/{secondNumber}")]
-        public IActionResult Sum(string firstNumber, string secondNumber)
+
+        // GET api/values/soma/5/5
+        [HttpGet("soma/{firstNumber}/{secondNumber}")]
+        public IActionResult Soma(string firstNumber, string secondNumber)
         {
             if ( IsNumeric(firstNumber) && IsNumeric(secondNumber))
             {
                 var sum = Convert.ToDecimal(firstNumber) + Convert.ToDecimal(secondNumber);
+                return Ok(sum.ToString());
+            }
+
+            return BadRequest("Invalid input");
+        }
+
+        // GET api/values/subtracao/5/5
+        [HttpGet("subtracao/{firstNumber}/{secondNumber}")]
+        public IActionResult Subtracao(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var sum = Convert.ToDecimal(firstNumber) - Convert.ToDecimal(secondNumber);
+                return Ok(sum.ToString());
+            }
+
+            return BadRequest("Invalid input");
+        }
+
+        // GET api/values/divisao/5/5
+        [HttpGet("divisao/{firstNumber}/{secondNumber}")]
+        public IActionResult Divisao(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var sum = Convert.ToDecimal(firstNumber) / Convert.ToDecimal(secondNumber);
+                return Ok(sum.ToString());
+            }
+
+            return BadRequest("Invalid input");
+        }
+
+        // GET api/values/multiplicacao/5/5
+        [HttpGet("{firstNumber}/{secondNumber}")]
+        public IActionResult Multiplicacao(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var sum = Convert.ToDecimal(firstNumber) * Convert.ToDecimal(secondNumber);
                 return Ok(sum.ToString());
             }
 
