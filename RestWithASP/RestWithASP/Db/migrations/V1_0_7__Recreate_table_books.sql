@@ -1,0 +1,11 @@
+CREATE TABLE `books` (
+	`id` INT(10) NOT NULL AUTO_INCREMENT,
+	`Author` LONGTEXT NULL,
+	`LaunchDate` DATETIME(6) NOT NULL,
+	`Price` DECIMAL(65,2) NOT NULL,
+	`Title` LONGTEXT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=16
