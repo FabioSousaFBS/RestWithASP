@@ -124,6 +124,9 @@ AutoTest.Net/
 
 # Installshield output folder
 [Ee]xpress/
+RestWithASP/.vs
+RestWithASP/RestWithASP/bin
+RestWithASP/RestWithASP/obj
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
@@ -155,6 +158,10 @@ PublishScripts/
 *.nupkg
 # The packages folder can be ignored because of Package Restore
 **/packages/*
+RestWithASP/.vs
+RestWithASP/RestWithASP/bin
+RestWithASP/RestWithASP/obj
+
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
